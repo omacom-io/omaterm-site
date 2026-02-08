@@ -71,7 +71,7 @@ body {
 }
 
 a {
-  color: var(--color-terminal-cyan);
+  color: var(--color-green);
   font-weight: 700;
   text-decoration-thickness: 0.0875em;
   text-underline-offset: 0.125em;
