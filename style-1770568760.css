@@ -183,7 +183,7 @@ a {
 
 @media(hover: hover) {
   .button:hover {
-    background: var(--color-turquoise);
+    background: var(--color-green);
     color: var(--color-background-night);
   }
 }
