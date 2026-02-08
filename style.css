@@ -32,7 +32,7 @@ header, footer, main, nav {
   --rgb-terminal-cyan: 125, 207, 255;
   --rgb-terminal-white: 192, 202, 245;
   --rgb-turquoise: 180, 249, 248;
-  --rgb-white: 255, 255, 255;
+  --rgb-white: 215, 215, 215;
 
   --color-background-night: rgb(var(--rgb-background-night));
   --color-background-storm: rgb(var(--rgb-background-storm));
