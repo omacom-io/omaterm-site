@@ -23,7 +23,7 @@ header, footer, main, nav {
 }
 
 :root {
-  --rgb-background-night: 26, 27, 38;
+  --rgb-background-night: 0, 0, 0;
   --rgb-background-storm: 36, 40, 59;
   --rgb-black: 0, 0, 0;
   --rgb-green: 158, 206, 106;
