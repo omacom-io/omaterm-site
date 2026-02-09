@@ -1,0 +1,21 @@
+.main {
+  display: grid;
+  margin-block: var(--space-x-large);
+}
+
+
+
+.main--error {
+  flex: 1;
+  place-content: center;
+}
+
+
+
+@media(min-width: 64em) {
+
+  .main {
+    margin-block: var(--space-xx-large);
+  }
+
+}

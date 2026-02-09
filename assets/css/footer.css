@@ -1,0 +1,31 @@
+.footer {
+  display: grid;
+  gap: 1.25em;
+  margin-bottom: var(--space-x-large);
+  margin-top: auto;
+  padding-inline: var(--space-large);
+}
+
+.footer__buttons {
+  display: flex;
+  gap: 1.25em;
+  justify-content: center;
+}
+
+.footer__buttons img {
+  display: block;
+  height: 2em;
+  pointer-events: none;
+  width: auto;
+}
+
+
+
+@media(min-width: 64em) {
+
+  .footer {
+    margin-bottom: var(--space-xx-large);
+    padding-inline: var(--space-x-large);
+  }
+
+}

@@ -1,0 +1,50 @@
+.pre {
+  display: grid;
+  margin-top: var(--space-x-large);
+  padding-inline: var(--space-large);
+  text-align: left;
+}
+
+.pre a {
+  color: var(--color-green);
+  font-weight: normal;
+  justify-self: center;
+  text-decoration: none;
+}
+
+.pre pre {
+  color: var(--color-green);
+  font-size: clamp(0.425rem, 1.25vw, 1rem);
+  justify-self: center;
+  letter-spacing: -0.0425em;
+  line-height: 1.09375;
+  transition: color var(--transition);
+  white-space: pre;
+}
+
+
+
+@media(hover: hover) {
+
+  .pre a:hover pre {
+    color: var(--color-white);
+  }
+
+}
+
+
+
+@media(min-width: 64em) {
+
+  .pre {
+    margin-top: var(--space-xx-large);
+    padding-inline: var(--space-x-large);
+  }
+
+}
+
+
+
+.pre--error {
+  margin-top: 0;
+}

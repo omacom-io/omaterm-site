@@ -1,0 +1,28 @@
+.nav {
+  display: grid;
+  gap: var(--space-medium);
+  margin-bottom: var(--space-x-large);
+  margin-top: var(--space-large);
+  padding-inline: var(--space-large);
+}
+
+.nav__command {
+  justify-self: center;
+}
+
+.nav__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-medium);
+  justify-content: center;
+}
+
+
+
+@media(min-width: 64em) {
+
+  .nav {
+    padding-inline: var(--space-x-large);
+  }
+
+}

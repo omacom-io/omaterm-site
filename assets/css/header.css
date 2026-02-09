@@ -1,0 +1,19 @@
+.header {
+  display: grid;
+  margin-top: var(--space-medium);
+  padding-inline: var(--space-large);
+}
+
+.header h1 {
+  font-size: var(--font-size-medium);
+}
+
+
+
+@media(min-width: 64em) {
+
+  .header {
+    padding-inline: var(--space-x-large);
+  }
+
+}
