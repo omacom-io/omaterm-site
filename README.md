@@ -1,6 +1,6 @@
 # Omaterm Site
 
-The website for [Omaterm](https://www.omaterm.org) — An Omakase Headless Arch Setup by DHH.
+The website for [Omaterm](https://www.omaterm.org) — An Omakase Terminal Setup For Arch/Debian/Ubuntu/Fedora by DHH.
 
 ## Development
 
