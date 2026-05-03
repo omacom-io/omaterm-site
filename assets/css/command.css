@@ -96,7 +96,7 @@
   }
 
   .command.command--copy button {
-    background: url('../images/copy.svg') center center / 1.2em auto no-repeat;
+    background: url('../images/copy.svg') center / auto 1.2em no-repeat;
     cursor: pointer;
     display: block;
     height: 2.8em;
